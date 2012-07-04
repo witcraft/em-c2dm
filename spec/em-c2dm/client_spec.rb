@@ -16,7 +16,7 @@ describe EM::C2DM::Client do
         :headers => {
           'Authorization'=>'GoogleLogin auth=token',
           'Content-Length'=>'0',
-          'User-Agent'=>'em-c2dm 0.0.1'
+          'User-Agent'=>'em-c2dm 0.0x.1'
         }
       ).to_return(
         :status => 200,
