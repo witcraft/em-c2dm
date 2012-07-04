@@ -15,7 +15,7 @@ module EventMachine
 
       def headers
         {
-          "Authorization"   => "GoogleLogin auth=#{EM::C2DM.token}",
+          "Authorization"   => "key=#{EM::C2DM.token}",
           "Content-Length"  => 0,
           "User-Agent"      => "em-c2dm #{EM::C2DM::VERSION}"
         }
