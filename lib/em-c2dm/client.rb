@@ -4,7 +4,7 @@ require "em-c2dm/log_message"
 module EventMachine
   module C2DM
     class Client
-      URL = "https://android.apis.google.com/c2dm/send"
+      URL = "https://android.googleapis.com/gcm/send"
 
       def initialize(notification)
         @notification = notification
